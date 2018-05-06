@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\Users\CS152B\Desktop\Group3\lab2\traffic_light.ncd
-OUTFILE=C:\Users\CS152B\Desktop\Group3\lab2\traffic_light.bit
-FAMILY=Virtex5
-PART=xc5vlx50t-1ff1136
-WORKINGDIR=C:\Users\CS152B\Desktop\Group3\lab2
-LICENSE=ISE
-USER_INFO=203015155_203016297_210565169_123
