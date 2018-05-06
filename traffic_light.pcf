@@ -1,0 +1,20 @@
+//! **************************************************************************
+// Written by: Map P.68d on Mon Apr 30 14:44:54 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "main<0>" LOCATE = SITE "AG10" LEVEL 1;
+COMP "main<1>" LOCATE = SITE "AH10" LEVEL 1;
+COMP "main<2>" LOCATE = SITE "AG11" LEVEL 1;
+COMP "walk_light" LOCATE = SITE "AF11" LEVEL 1;
+COMP "walk_button" LOCATE = SITE "G6" LEVEL 1;
+COMP "reset" LOCATE = SITE "L18" LEVEL 1;
+COMP "led_clock" LOCATE = SITE "AE11" LEVEL 1;
+COMP "reset_apply" LOCATE = SITE "G7" LEVEL 1;
+COMP "side_sensor" LOCATE = SITE "J19" LEVEL 1;
+COMP "side<0>" LOCATE = SITE "AG8" LEVEL 1;
+COMP "fast_clock" LOCATE = SITE "AG18" LEVEL 1;
+COMP "side<1>" LOCATE = SITE "AH8" LEVEL 1;
+COMP "side<2>" LOCATE = SITE "AH9" LEVEL 1;
+SCHEMATIC END;
+

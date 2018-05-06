@@ -1,0 +1,246 @@
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
+xst -intstyle ise -ifn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.xst" -ofn "C:/Users/CS152B/Desktop/Group3/lab2/traffic_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenesysGeneral.ucf -p xc5vlx50t-ff1136-1 traffic_light.ngc traffic_light.ngd  
+map -intstyle ise -p xc5vlx50t-ff1136-1 -w -logic_opt off -ol high -t 1 -register_duplication off -global_opt off -mt off -cm area -ir off -pr off -lc off -power off -o traffic_light_map.ncd traffic_light.ngd traffic_light.pcf 
+par -w -intstyle ise -ol high -mt off traffic_light_map.ncd traffic_light.ncd traffic_light.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml traffic_light.twx traffic_light.ncd -o traffic_light.twr traffic_light.pcf -ucf GenesysGeneral.ucf 
+bitgen -intstyle ise -f traffic_light.ut traffic_light.ncd 
